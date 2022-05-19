@@ -1,5 +1,5 @@
 {
-  "name": "sdk-tutorial",
+  "name": "javascript-importmap-template",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -9,6 +9,6 @@
     "start": "npx serve",
     "DEPLOY": "aws --profile unegma s3 sync --delete ./ s3://playground.unegma.work/"
   },
-  "author": "",
+  "author": "tim@unegma.com",
   "license": "ISC"
 }
